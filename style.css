@@ -11,9 +11,9 @@ a {
 	height: 28.75rem;
 	margin: auto;
 	background: url(https://avatars.githubusercontent.com/u/123005779) no-repeat center / cover;
-	box-shadow: 0 0 0 .0625rem #F0F6FC1A;
+	box-shadow: 0 0 0 max(1px, 0.0625rem) #F0F6FC1A;
 	box-sizing: border-box;
-	border: .0625rem solid #30363D;
-	border-radius: 100%;
+	border: max(1px, 0.0625rem) solid #30363D;
+	border-radius: 50%;
 	aspect-ratio: 1;
 }
